@@ -19,7 +19,7 @@
           <img src="avatar.jpg" alt="dangminhtran">
         </div>
         <div class="name">Dang Minh Tran</div>
-        <div class="job">Web designer</div>
+        <div class="job">Software Developer | CS @ YorkU</div>
         <div class="websites">
           <a class="fab fa-facebook" target="_blank" href="https://www.facebook.com/henopkisin/"></a>
           <a href="https://www.linkedin.com/in/dangminhtran/" target="_blank" class="fab fa-linkedin"></a>
@@ -31,26 +31,26 @@
         </div>
       </div>
       <div class="card_footer">
-        <h1 style="text-align: center; position: relative; top: -20px;">Skills</h1>
+        <h1 style="text-align: center; position: relative; top: -20px; color: #61dafb;">Tech Stack</h1>
         <div class="numbers">
           <div class="item">
-            <span>React.js</span>
+            <span><i class="fab fa-react fa-spin fa-3x" style="color: #61dafb;"></i></span>
           </div>
           <div class="border"></div>
           <div class="item">
-            <span>JavaScript</span>
+            <span><i class="fab fa-js fa-3x" style="color: #f0db4f;"></i></span>
           </div>
           <div class="border"></div>
           <div class="item">
-            <span>HTML</span>
+            <span><i class="fab fa-html5 fa-3x" style="color: #f06529;"></i></span>
           </div>
           <div class="border"></div>
           <div class="item">
-            <span>CSS</span>
+            <span><i class="fab fa-css3-alt fa-3x" style="color: #264de4;"></i></span>
           </div>
           <div class="border"></div>
           <div class="item">
-            <span>Java</span>
+            <span><i class="fab fa-java fa-3x" style="color: #f89820;"></i></span>
           </div>
         </div>
       </div>
@@ -58,7 +58,30 @@
   </section>
   
   <section id="contact">
-    <div class="profile_card">
+    <div class="contact_card">
+      <div class="card_header">
+      <div class="name">Contact Me!</div>
+      <form>
+        <label for="name">Name <input id="name" type="text"></label>
+        <label for="email">Email <input id="email" type="text"></label>
+        <label for="role">What is your occupation?
+            <select id="role">
+                <option value="">Select a role</option>
+                <option value="student">Student</option>
+                <option value="professor">Professor</option>
+                <option value="software developer">Software Developer</option>
+                <option value="data scientist">Data Scientist</option>
+            </select>
+        </label>
+        <label for="bio">Provide a bio: <textarea id="bio" name="bio" rows="3" cols="30"
+                placeholder="Hello World..."></textarea></label>
+        <input class="contact_btn" type="submit" value="Submit">
+        <input class="contact_btn" type="reset" value="Clear">
+    </form>
+    <a class="contact_btn" onclick="showProfileSection()">Profile</a>
+      </div>
+    </div>
+    <!-- <div class="profile_card">
       <div class="card_header">
         <div class="pic">
           <img src="avatar.jpg" alt="dangminhtran">
@@ -74,8 +97,8 @@
           <a href="MyResume - Current.pdf" class="contact_btn" target="_blank">My Resume</a>
           <a class="contact_btn" onclick="showProfileSection()">Profile</a>
         </div>
-      </div>
-      <div class="card_footer">
+      </div> -->
+      <!-- <div class="card_footer">
         <div class="numbers">
           <div class="item">
             <span id="follower-count">8</span>
@@ -92,7 +115,7 @@
             Followers
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </body>

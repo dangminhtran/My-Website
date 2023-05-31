@@ -5,7 +5,7 @@ function showContactSection() {
       document.getElementById("contact").style.display = "block";
       setTimeout(function() {
         document.getElementById("contact").classList.remove("hidden");
-      }, 10);
+      }, 20);
     }, 500);
   }
 
@@ -16,6 +16,6 @@ function showContactSection() {
       document.getElementById("profile").style.display = "block";
       setTimeout(function() {
         document.getElementById("profile").classList.remove("hidden");
-      }, 10);
+      }, 20);
     }, 500);
   }
