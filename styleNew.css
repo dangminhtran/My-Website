@@ -208,8 +208,12 @@ input[type="reset"] {
     font-size: 24px;
   }
 
+  .job {
+    font-size: 16px;
+  }
+
   .contact_btn {
-    width: 100%;
+    font-size: 15px;
   }
   .card_header {
     padding: 40px 20px;
@@ -241,13 +245,10 @@ input[type="reset"] {
 
   .contact_card .contact_btn {
     font-size: 14px;
-    width: 50%;
+    width: 60%;
   }
 
   .contact_card .card_header {
     height: 50%;
   }
-
-
-
 }
