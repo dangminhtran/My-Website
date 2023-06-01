@@ -183,7 +183,7 @@ select {
   font-size: 20px;
   border-radius: 10px;
   background-color: transparent;
-  border-color: smokewhite;
+  border-color: whitesmoke;
   padding: 0.5rem;
   color: rgb(233, 225, 214);
 }
@@ -196,4 +196,58 @@ option {
 input[type="submit"],
 input[type="reset"] {
   background: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .profile_card,
+  .contact_card {
+    width: 70%;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+
+  .contact_btn {
+    width: 100%;
+  }
+  .card_header {
+    padding: 40px 20px;
+    height: 500px;
+  }
+
+  .stack {
+    display: block;
+  }
+
+  .fa-3x {
+    font-size: 2rem;
+  }
+  .card_footer {
+    padding: 30px 0 10px;
+  }
+
+  .contact_card {
+    width: 60%;
+  }
+
+  input.name-email,textarea,select {
+    height: 3em;
+  }
+
+  input.name-email,textarea,select,label {
+    font-size: 15px;
+  }
+
+  .contact_card .contact_btn {
+    font-size: 14px;
+    width: 50%;
+  }
+
+  .contact_card .card_header {
+    height: 50%;
+  }
+
+
+
 }
